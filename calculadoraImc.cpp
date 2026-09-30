@@ -24,6 +24,6 @@ int main() {
     std::cin >> estatura;
         double imc = calcularImc(peso, estatura);
      std::cout << "imc: " << "imc"
-              << " (" << clasificarImc("imc") << ")" << std::endl;
+              << " (" << clasificarImc(imc) << ")" << std::endl;
     return 0;
 }
