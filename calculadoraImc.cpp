@@ -15,13 +15,14 @@ double calcularImc(double pesoKg, double estaturaM) {
     }
     return "Obesidad";
 }
+
 int main() {
     double peso, estatura;
     std::cout << "Peso (kg): ";
     std::cin >> peso;
     std::cout << "Estatura (m): ";
     std::cin >> estatura;
-     std::cout << "imc: " << imc
+     std::cout << "imc: " << "imc"
               << " (" << clasificarImc(imc) << ")" << std::endl;
     return 0;
 }
