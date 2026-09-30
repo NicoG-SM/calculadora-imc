@@ -1,5 +1,4 @@
-# calculadora-imc
-Cálculo del índice de masa corporal
+
 #include <iostream>
  
 double calcularImc(double pesoKg, double estaturaM) {
