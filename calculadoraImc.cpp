@@ -23,6 +23,6 @@ int main() {
     std::cout << "Estatura (m): ";
     std::cin >> estatura;
      std::cout << "imc: " << "imc"
-              << " (" << clasificarImc(imc) << ")" << std::endl;
+              << " (" << clasificarImc("imc") << ")" << std::endl;
     return 0;
 }
